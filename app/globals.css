@@ -24,4 +24,18 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+
+  .shadow-neon1 {
+    box-shadow: 0 0 5px #d30162, 0 0 10px #d30162, 0 0 20px #d30162;
+  }
+
+  .shadow-neon2 {
+    box-shadow: 0 0 5px #00bbf9, 0 0 10px #00bbf9, 0 0 20px #00bbf9;
+  }
+  .shadow-neon3 {
+    box-shadow: 0 0 5px #ff0054, 0 0 10px #ff0054, 0 0 20px #ff0054}
+
+    .neon-svg svg {
+      filter: drop-shadow(0 0 8px #00bbf9) drop-shadow(0 0 16px #00bbf9);
+    }
 }
